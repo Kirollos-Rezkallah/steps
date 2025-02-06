@@ -89,3 +89,59 @@ h3 {
 .close:hover {
   color: #7950f2;
 }
+
+/* Media Queries for Phone Screens */
+@media (max-width: 600px) {
+  .steps {
+    width: 90%; /* Make the container take up 90% of the screen width */
+    padding: 20px; /* Reduce padding for smaller screens */
+    margin: 50px auto; /* Reduce top and bottom margin */
+  }
+
+  .numbers > div {
+    height: 30px; /* Reduce the size of the step numbers */
+    font-size: 16px; /* Reduce font size for step numbers */
+  }
+
+  .message {
+    font-size: 18px; /* Reduce font size for the message */
+    margin: 20px 0; /* Reduce margin for the message */
+  }
+
+  .buttons button {
+    padding: 8px 12px; /* Reduce button padding */
+    font-size: 12px; /* Reduce button font size */
+  }
+
+  .close {
+    font-size: 30px; /* Reduce the size of the close button */
+    top: 10px; /* Adjust position */
+    right: 10px; /* Adjust position */
+  }
+}
+
+/* Media Queries for Very Small Screens (e.g., iPhone SE) */
+@media (max-width: 375px) {
+  .steps {
+    padding: 15px; /* Further reduce padding */
+  }
+
+  .numbers > div {
+    height: 25px; /* Further reduce the size of the step numbers */
+    font-size: 14px; /* Further reduce font size for step numbers */
+  }
+
+  .message {
+    font-size: 16px; /* Further reduce font size for the message */
+    margin: 15px 0; /* Further reduce margin for the message */
+  }
+
+  .buttons button {
+    padding: 6px 10px; /* Further reduce button padding */
+    font-size: 11px; /* Further reduce button font size */
+  }
+
+  .close {
+    font-size: 25px; /* Further reduce the size of the close button */
+  }
+}
