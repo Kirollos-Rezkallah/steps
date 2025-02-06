@@ -11,4 +11,4 @@ The **Steps App** is a simple React application designed to help you practice fu
 
 ## Live Demo
 
-Check out the live demo of the app [here](#).
+Check out the live demo of the app [here](https://kirollos-rezkallah.github.io/steps/).
